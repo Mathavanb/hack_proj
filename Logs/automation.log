@@ -1,0 +1,98 @@
+16:45:48.342 [main] INFO  - TS003_Navigating to the EMI Calculator page.
+16:45:48.923 [main] INFO  - TS003_Navigated to the EMI Calculator page.
+16:45:48.932 [main] INFO  - Smoke Test Successfully Verified - EMI Calculator Page
+16:45:48.939 [main] INFO  - UI_LoanTenure_Calculation
+16:45:48.940 [main] INFO  - 01.Navigating to the Loan Tenure Calculator page.
+16:45:49.328 [main] INFO  - 02.Navigated to the Loan Tenure Calculator page.
+16:45:49.328 [main] INFO  - 03.Validating displayed elements of Loan Tenure Calculator.
+16:45:49.557 [main] INFO  - 04.All elements are displayed successfully in Loan Tenure Calculator page.
+16:45:49.557 [main] INFO  - 05.Validating enabled elements of Loan Tenure Calculator.
+16:45:49.678 [main] INFO  - 06.All elements are enabled successfully in Loan Tenure Calculator page.
+16:45:49.678 [main] INFO  - 07.Testing scale change for Loan Amount in Loan Tenure Calculator page.
+16:45:50.612 [main] INFO  - 08.Scale change for Loan Amount validated successfully.
+16:45:50.612 [main] INFO  - 09.Testing scale change for Interest Rate in Loan Tenure Calculator page.
+16:45:51.516 [main] INFO  - 10.Scale change for Interest Rate validated successfully in Loan Tenure Calculator page.
+16:45:51.516 [main] INFO  - 11.Testing scale change for Fees and Charges in Loan Tenure Calculator page.
+16:45:52.486 [main] INFO  - 12.Scale change for Fees and Charges validated successfully in Loan Tenure Calculator page.
+16:45:52.487 [main] ERROR - TS005_Loan Tenure UI check validation failed: The following asserts failed:
+	EMI Slider is not visible expected [false] but found [true],
+	Interest Rate Text Box is not enabled expected [false] but found [true],
+	Scale change for Interest Rate did not match. did not expect [14.25] but found [14.25]
+16:48:43.427 [main] INFO  - Car_Loan_Test
+16:48:43.428 [main] INFO  - 01: Navigating to the Car Loan page.
+16:48:43.777 [main] INFO  - 02: Navigated to the Car Loan page.
+16:48:43.777 [main] INFO  - 03: Clicking on Car Loan.
+16:48:43.866 [main] INFO  - 04: Clicked on Car Loan.
+16:48:43.875 [main] INFO  - Smoke Test Successfully Verified - Car Loan Page
+16:48:43.892 [main] INFO  - 05: Reading data from Excel file.
+16:48:44.635 [main] INFO  - 06: Data read from Excel file: Loan Amount = 1500000, Interest = 9.5, Tenure = -375
+16:48:44.635 [main] INFO  - 07: Setting Loan Amount.
+16:48:44.854 [main] INFO  - 08: Loan Amount set to 1500000
+16:48:44.854 [main] INFO  - 09: Setting Interest Rate.
+16:48:44.877 [main] INFO  - 10: Interest Rate set to 9.5
+16:48:44.877 [main] INFO  - 11: Moving Loan Tenure Slider.
+16:48:45.480 [main] INFO  - 12: Loan Tenure Slider moved.
+16:48:45.481 [main] INFO  - 13: Clicking on Year.
+16:48:45.519 [main] INFO  - 14: Clicked on Year.
+16:48:45.519 [main] INFO  - 15: Scrolling to the table.
+16:48:45.663 [main] INFO  - 16: Scrolled to the table.
+16:48:45.663 [main] INFO  - 17: Clicking on Years.
+16:48:45.699 [main] INFO  - 18: Clicked on Years.
+16:48:45.699 [main] INFO  - 19: Fetching EMI Payment Table Data.
+16:48:46.686 [main] INFO  - 20: Fetched EMI Payment Table Data.
+16:48:46.687 [main] INFO  - 21: Writing data to Excel file: .//TestData/TS001_YearTable_TestNG2024.11.05.16.48.46.xlsx
+16:48:46.847 [main] INFO  - 22: Data written to Excel file successfully.
+16:48:52.980 [main] INFO  - Home_Loan_Test
+16:48:53.013 [main] INFO  - 01.Navigating to the Home Loan page.
+16:48:53.862 [main] INFO  - 02.Navigated to the Home Loan page.
+16:48:53.877 [main] INFO  - Smoke Test Successfully Verified - Home Loan Page
+16:48:53.880 [main] INFO  - 03.Scrolling to the table.
+16:48:53.917 [main] INFO  - 04.Scrolled to the table.
+16:48:53.917 [main] INFO  - 05.Fetching table data.
+16:48:57.630 [main] INFO  - 06.Fetched table data.
+16:48:57.630 [main] INFO  - 07.Writing data to Excel file: .//TestData/TS002_YearTable_TestNG2024.11.05.16.48.57.xlsx
+16:48:57.673 [main] INFO  - 08.Data written to Excel file successfully.
+16:49:03.916 [main] INFO  - TS003_Navigating to the EMI Calculator page.
+16:49:04.693 [main] INFO  - TS003_Navigated to the EMI Calculator page.
+16:49:04.709 [main] INFO  - Smoke Test Successfully Verified - EMI Calculator Page
+16:49:04.717 [main] INFO  - TS003_Validating displayed elements of EMI Calculator.
+16:49:04.861 [main] INFO  - TS003_All elements are displayed successfully in EMI Calculator Page.
+16:49:04.861 [main] INFO  - TS003_Validating enabled elements of EMI Calculator Page.
+16:49:05.000 [main] INFO  - TS003_All elements are enabled successfully in EMI Calculator Page.
+16:49:05.001 [main] INFO  - TS003_Testing scale change for Loan Amount in EMI Calculator Page.
+16:49:05.868 [main] INFO  - TS003_Testing scale change for Interest Rate.
+16:49:06.740 [main] INFO  - TS003_Testing scale change for Loan Tenure in EMI Calculator Page.
+16:49:07.600 [main] INFO  - TS003_Validating Year and Month option in EMI Calculator Page.
+16:49:07.708 [main] INFO  - TS003_Testing scale change for Fees and Charges in EMI Calculator Page.
+16:49:08.599 [main] INFO  - TS003_Loan Tenure UI Check validation is successful in EMI Calculator Page.
+16:49:15.604 [main] INFO  - TS003_Navigating to the EMI Calculator page.
+16:49:16.294 [main] INFO  - TS003_Navigated to the EMI Calculator page.
+16:49:16.304 [main] INFO  - Smoke Test Successfully Verified - EMI Calculator Page
+16:49:16.307 [main] INFO  - TS004_Navigating to the Loan Amount Calculator page.
+16:49:16.701 [main] INFO  - TS004_Navigated to the Loan Amount Calculator page.
+16:49:16.701 [main] INFO  - TS004_Validating that all text boxes and sliders are displayed in Loan Amount Calculator Page.
+16:49:16.886 [main] INFO  - TS004_All text boxes and sliders are displayed successfully in Loan Amount Calculator Page.
+16:49:16.886 [main] INFO  - TS004_Validating that all text boxes and sliders are enabled in Loan Amount Calculator Page.
+16:49:17.011 [main] INFO  - TS004_All text boxes and sliders are enabled successfully in Loan Amount Calculator Page.
+16:49:17.011 [main] INFO  - TS004_Testing scale change for Interest Rate in Loan Amount Calculator Page.
+16:49:17.899 [main] INFO  - TS004_Testing scale change for Loan Tenure in Loan Amount Calculator Page.
+16:49:18.815 [main] INFO  - TS004_Validating Year and Month option in Loan Amount Calculator Page.
+16:49:18.873 [main] INFO  - TS004_Testing scale change for Fees and Charges in Loan Amount Calculator Page.
+16:49:19.885 [main] INFO  - TS004_Loan Amount Calculator UI check validation completed.
+16:49:26.122 [main] INFO  - TS003_Navigating to the EMI Calculator page.
+16:49:26.731 [main] INFO  - TS003_Navigated to the EMI Calculator page.
+16:49:26.736 [main] INFO  - Smoke Test Successfully Verified - EMI Calculator Page
+16:49:26.739 [main] INFO  - UI_LoanTenure_Calculation
+16:49:26.740 [main] INFO  - 01.Navigating to the Loan Tenure Calculator page.
+16:49:27.460 [main] INFO  - 02.Navigated to the Loan Tenure Calculator page.
+16:49:27.460 [main] INFO  - 03.Validating displayed elements of Loan Tenure Calculator.
+16:49:27.646 [main] INFO  - 04.All elements are displayed successfully in Loan Tenure Calculator page.
+16:49:27.646 [main] INFO  - 05.Validating enabled elements of Loan Tenure Calculator.
+16:49:27.751 [main] INFO  - 06.All elements are enabled successfully in Loan Tenure Calculator page.
+16:49:27.751 [main] INFO  - 07.Testing scale change for Loan Amount in Loan Tenure Calculator page.
+16:49:28.612 [main] INFO  - 08.Scale change for Loan Amount validated successfully.
+16:49:28.612 [main] INFO  - 09.Testing scale change for Interest Rate in Loan Tenure Calculator page.
+16:49:29.520 [main] INFO  - 10.Scale change for Interest Rate validated successfully in Loan Tenure Calculator page.
+16:49:29.520 [main] INFO  - 11.Testing scale change for Fees and Charges in Loan Tenure Calculator page.
+16:49:30.475 [main] INFO  - 12.Scale change for Fees and Charges validated successfully in Loan Tenure Calculator page.
+16:49:30.475 [main] INFO  - 13.Loan Tenure UI check validation is successful.
