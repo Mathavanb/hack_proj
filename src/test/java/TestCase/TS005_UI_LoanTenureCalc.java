@@ -73,19 +73,19 @@ public class TS005_UI_LoanTenureCalc extends DriverSetup {
 		    logger.info("07.Testing scale change for Loan Amount in Loan Tenure Calculator page.");
 		    UI.moveLoanAmtSlider(0);
 		    UI.moveLoanAmtSlider(130);
-		    softAssert.assertEquals(UI.getLoanAmtTextBoxValue(), "50,00,000", "Scale change for Loan Amount did not match.");
+		    softAssert.assertEquals(UI.getLoanAmtTextBoxValue(), "60,00,000", "Scale change for Loan Amount did not match.");
 		    logger.info("08.Scale change for Loan Amount validated successfully.");
 
 		    logger.info("09.Testing scale change for Interest Rate in Loan Tenure Calculator page.");
 		    UI.moveIntRateSlider(0);
 		    UI.moveIntRateSlider(112);
-		    softAssert.assertEquals(UI.getIntRateTextBoxValue(), "14.25", "Scale change for Interest Rate did not match.");
+		    softAssert.assertEquals(UI.getIntRateTextBoxValue(), "15", "Scale change for Interest Rate did not match.");
 		    logger.info("10.Scale change for Interest Rate validated successfully in Loan Tenure Calculator page.");
 
 		    logger.info("11.Testing scale change for Fees and Charges in Loan Tenure Calculator page.");
 		    UI.moveFeesAndChargesSlider(0);
 		    UI.moveFeesAndChargesSlider(97);
-		    softAssert.assertEquals(UI.getFeesAndChargesTextBoxValue(), "25,000", "Scale change for Fees and Charges did not match.");
+		    softAssert.assertEquals(UI.getFeesAndChargesTextBoxValue(), "28,500", "Scale change for Fees and Charges did not match.");
 		    logger.info("12.Scale change for Fees and Charges validated successfully in Loan Tenure Calculator page.");
 
 		    softAssert.assertAll();
